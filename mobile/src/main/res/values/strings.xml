@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NeuroTech</string>
+    <string name="monitoring">Monitoring</string>
+    <string name="monitoring_blurb">Network traffic analysis and intrusion detection.</string>
+    <string name="statistics">Statistics</string>
+    <string name="statistics_blurb">Historical intrusion data overview and analysis.</string>
+    <string name="settings">Settings</string>
+    <string name="settings_blurb">System parameter setup and configuration.</string>
+    <string name="monitoring_abnormal">Network status (1 hour)</string>
+    <string name="monitoring_total">Network load (1 hour)</string>
+    <string name="status_healthy">Healthy</string>
+    <string name="status_woozy">Suspicious</string>
+    <string name="status_sick">Under attack</string>
+    <string name="status_nodata">No data</string>
+    <string name="statistics_graph">Traffic data (48 hours)</string>
+    <string name="statistics_table_date">Date</string>
+    <string name="statistics_table_events">Events</string>
+    <plurals name="statistics_table_entry">
+        <item quantity="one">%1$d anomalous packet detected (%2$.2f%% of total load)</item>
+        <item quantity="other">%1$d anomalous packets detected (%2$.2f%% of total load)</item>
+    </plurals>
+    <string name="statistics_table_dateformat">MMMM d YYYY, HH:mm</string>
+    <string name="splash_percent">%d%%</string>
+</resources>

@@ -1,0 +1,41 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+
+    <style name="NoActionBar" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+    </style>
+
+    <style name="HomeNavLink" parent="@android:style/TextAppearance.Material.Large">
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ChartTitle" parent="@android:style/TextAppearance.Material.Medium">
+        <item name="android:textColor">@color/primary</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TableHeader" parent="@android:style/TextAppearance.Material.Small">
+        <item name="android:textColor">@color/background</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TableEntry" parent="@android:style/TextAppearance.Material.Small">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="ProgressText" parent="android:TextAppearance.DeviceDefault.Large">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/progressText</item>
+        <item name="android:fontFamily">sans-serif-thin</item>
+    </style>
+
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.engin33r.neurotech.StatisticsActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/statsChartContainer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:padding="8dp">
+
+        <TextView
+            android:id="@+id/statsChartTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/monitoring_abnormal"
+            android:textAppearance="@style/ChartTitle"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/statsChartStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/statsChartTitle"
+            android:layout_centerHorizontal="true"
+            android:text="@string/status_nodata"
+            android:textAlignment="center"  />
+
+        <com.github.mikephil.charting.charts.LineChart
+            android:id="@+id/statsChart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/statsChartStatus"
+            android:textAppearance="@style/ChartTitle" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <TableLayout
+            android:id="@+id/statsTable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:shrinkColumns="*"
+            android:stretchColumns="*">
+
+            <include layout="@layout/table_header" />
+
+            <TableRow
+                android:id="@+id/statsNodata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="8dp"
+                android:background="@color/tableNodata">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_span="2"
+                    android:text="@string/status_nodata"
+                    android:layout_gravity="center"/>
+
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StatusTimeline">
+        <attr name="units" format="integer" />
+        <attr name="defaultColor" format="color" />
+    </declare-styleable>
+</resources>

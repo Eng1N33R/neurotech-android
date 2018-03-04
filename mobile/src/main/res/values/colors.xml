@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#FF4081</color>
+    <color name="primary">#333b46</color>
+    <color name="primaryDark">#2f3741</color>
+    <color name="element">#46b29a</color>
+    <color name="elementDark">#3ba68e</color>
+    <color name="background">#e7e7e7</color>
+
+    <color name="statusHealthy">#43b581</color>
+    <color name="statusWoozy">#e6740f</color>
+    <color name="statusSick">#ce2e2e</color>
+    <color name="statusNodata">#aaaaaa</color>
+
+    <color name="tableWoozy">#32e6740f</color>
+    <color name="tableSick">#32ce2e2e</color>
+    <color name="tableNodata">#32aaaaaa</color>
+
+    <color name="progressBackground">#25374b</color>
+    <color name="progressGradientStart">#2086c6</color>
+    <color name="progressGradientEnd">#07b076</color>
+    <color name="progressText">#ffffff</color>
+</resources>

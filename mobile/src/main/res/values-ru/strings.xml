@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">NeuroTech</string>
+    <string name="monitoring">Мониторинг</string>
+    <string name="monitoring_blurb">Анализ сетевого трафика и обнаружение атак.</string>
+    <string name="statistics">Статистика</string>
+    <string name="statistics_blurb">Анализ и аудит хронологических данных об атаках.</string>
+    <string name="settings">Настройки</string>
+    <string name="settings_blurb">Изменение параметров системы обнаружения атак.</string>
+    <string name="monitoring_abnormal">Статус сети (1 час)</string>
+    <string name="monitoring_total">Нагрузка сети (1 час)</string>
+    <string name="status_healthy">Безопасно</string>
+    <string name="status_woozy">Подозрительная активность</string>
+    <string name="status_sick">Высокая вероятность атаки</string>
+    <string name="status_nodata">Нет данных</string>
+    <string name="statistics_graph">Данные о трафике (48 часов)</string>
+    <string name="statistics_table_date">Дата</string>
+    <string name="statistics_table_events">События</string>
+    <plurals name="statistics_table_entry">
+        <item quantity="one">Обнаружен %1$d аномальный пакет (%2$.2f%% от общей нагрузки)</item>
+        <item quantity="few">Обнаружено %1$d аномальных пакета (%2$.2f%% от общей нагрузки)</item>
+        <item quantity="many">Обнаружено %1$d аномальных пакетов (%2$.2f%% от общей нагрузки)</item>
+    </plurals>
+    <string name="statistics_table_dateformat">d MMMM YYYY, HH:mm</string>
+    <string name="splash_percent">%d%%</string>
+</resources>

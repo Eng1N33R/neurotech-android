@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background"
+          android:gravity="center_vertical|fill_horizontal" >
+        <shape android:shape="rectangle">
+            <solid android:color="@color/progressBackground" />
+            <corners android:radius="4dp" />
+            <size android:height="@dimen/progress_height" />
+        </shape>
+    </item>
+
+    <item android:id="@android:id/secondaryProgress"
+          android:gravity="center_vertical|fill_horizontal">
+        <scale android:scaleWidth="100%">
+            <shape android:shape="rectangle">
+                <gradient
+                    android:type="linear"
+                    android:startColor="@color/progressGradientStart"
+                    android:endColor="@color/progressGradientEnd"
+                    android:angle="0" />
+                <corners android:radius="4dp" />
+                <size android:height="@dimen/progress_height" />
+            </shape>
+        </scale>
+    </item>
+
+    <item android:id="@android:id/secondaryProgress"
+          android:gravity="center_vertical|fill_horizontal" >
+        <scale android:scaleWidth="100%">
+            <shape android:shape="rectangle" >
+                <gradient
+                    android:type="linear"
+                    android:startColor="@color/progressGradientStart"
+                    android:endColor="@color/progressGradientEnd"
+                    android:angle="0" />
+                <corners android:radius="4dp" />
+                <size android:height="@dimen/progress_height" />
+            </shape>
+        </scale>
+    </item>
+
+</layer-list>
